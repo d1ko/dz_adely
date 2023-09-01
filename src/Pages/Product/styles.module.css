@@ -1,0 +1,108 @@
+.productContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.productTitle {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.productDescription {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.productFeatures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex-basis: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.feature:last-child {
+  margin-right: 0;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.featureTitle {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.featureDescription {
+  font-size: 16px;
+  color: #666;
+}
+
+.productBenefits {
+  margin-top: 30px;
+}
+
+.productBenefitsTitle {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.benefitList {
+  list-style-type: disc;
+  font-size: 18px;
+  color: #666;
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+.benefitItem {
+  margin-bottom: 10px;
+}
+
+.productCTA {
+  margin-top: 30px;
+}
+
+.productCTATitle {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.productCTADescription {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.ctaButton:hover {
+  background-color: #0056b3;
+}

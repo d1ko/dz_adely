@@ -1,0 +1,16 @@
+
+.aboutContainer {
+  text-align: center; 
+  padding: 20px; 
+}
+
+.aboutTitle {
+  font-size: 24px; 
+  color: #333; 
+}
+
+.aboutDescription {
+  font-size: 16px; 
+  color: #666;
+  margin-top: 10px; 
+}
